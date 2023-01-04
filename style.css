@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+    font-family: Caveat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading_part{
+    font-size: 40px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.head_cont { 
+    font-size: 20px;
+}
+
+.speed_container{
+    float: left;
+}
+
+.volume_container{
+    float: right;
+}
+
+img{
+    width: 50%;
+    border-radius: 200px;
+}
+
+#speed_holder,
+#volume_holder{
+    font-size: 30px;
+    color: white;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.play_song_btn{
+    background-color: chocolate;
+    border: 0px;
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    margin: 8%;
+}
+
+canvas{
+    background-color: white;
+    border: white 10px double;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 425px){
+    .head_cont { 
+        font-size: 12px;
+    }
+}
